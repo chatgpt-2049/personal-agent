@@ -1,20 +1,52 @@
-node_modules
+# Dependencies and package-manager caches
+node_modules/
+.pnpm-store/
+.npm/
+.yarn/cache/
+
+# Local environment values (keep sanitized examples)
 .env
 .env.*
 !.env.example
-.eve
-.vercel
-.workflow-data
-.next
-.output
-.nitro
-dist
-.data
-.DS_Store
-*.tsbuildinfo
-.nuxt
-.pnpm-store
-.env*
+!.env.*.example
+.envrc
 
-# Local cryptographic private keys
+# Private keys, keystores, and local credentials
 *.key
+*.pem
+*.p12
+*.pfx
+*.jks
+*.keystore
+id_rsa
+id_ed25519
+.ssh/
+.aws/
+credentials.json
+service-account*.json
+secrets/
+
+# Framework output, local runtime data, and deployment metadata
+.eve/
+.vercel/
+.workflow-data/
+.next/
+.output/
+.nitro/
+.nuxt/
+dist/
+.data/
+coverage/
+*.tsbuildinfo
+
+# Logs and temporary files
+*.log
+*.pid
+*.tmp
+*.swp
+*.swo
+*~
+
+# Operating-system metadata
+.DS_Store
+Thumbs.db

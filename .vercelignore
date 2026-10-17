@@ -1,6 +1,30 @@
+# Build output and local caches
 node_modules
 .eve
 .next
 .output
 .nitro
+.nuxt
 dist
+coverage
+.pnpm-store
+.git
+
+# Never upload local credentials or private keys
+.env
+.env.*
+.envrc
+*.key
+*.pem
+*.p12
+*.pfx
+*.jks
+*.keystore
+id_rsa
+id_ed25519
+.ssh
+.aws
+credentials.json
+service-account*.json
+secrets
+*.log
