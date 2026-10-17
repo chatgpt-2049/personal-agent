@@ -15,3 +15,6 @@ dist
 .nuxt
 .pnpm-store
 .env*
+
+# Local cryptographic private keys
+*.key

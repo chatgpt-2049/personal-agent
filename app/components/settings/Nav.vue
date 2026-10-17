@@ -2,6 +2,7 @@
 const route = useRoute();
 
 const items = [
+  { label: "Create CSR", to: "/settings/csr", icon: "i-lucide-file-key" },
   { label: "Profile", to: "/settings/profile", icon: "i-lucide-user-round" },
   { label: "Integrations", to: "/settings/integrations", icon: "i-lucide-plug" },
 ];
